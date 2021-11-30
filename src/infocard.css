@@ -1,0 +1,29 @@
+
+
+.info__cases{
+    font-weight:600 !important;
+    font-size: 1.75rem !important;  
+    margin-bottom: 0.5rem !important;
+}
+
+.infoCard:nth-last-of-type(odd) .info__cases{
+    color: red;
+}
+
+.infoCard:nth-last-of-type(even) .info__cases{
+    color:  rgb(24, 175, 69);
+}
+
+.info__total{
+    color: #6c757d;
+    font-weight:700 !important;
+    font-size: 0.9rem !important;   
+    margin-top: 15px;
+}
+
+.infoCard:nth-last-of-type(even) {
+    border-top: rgb(24, 175, 69) 5px solid;
+}
+.infoCard:nth-last-of-type(odd){
+    border-top: red 5px solid;
+}

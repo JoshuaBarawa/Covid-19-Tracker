@@ -1,0 +1,21 @@
+
+
+.table{
+    overflow-y: scroll;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.table td{
+    color: rgb(63, 63, 63);
+    padding: 0.5rem;
+}
+
+.table tr{
+   display: flex;
+   justify-content: space-between;
+}
+
+.table tr:nth-last-of-type(odd){
+    background-color: rgb(245, 243, 243);
+}
